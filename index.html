@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WebAudio FM Synth</title>
+</head>
+<body>
+    <header>
+        <h1>WebAudio FM Synth</h1>
+    </header>
+
+    <main>
+        <label>Operator Count</label>
+        <input id="operator-count" type="number" min="1" max="10" step="1" value="1" />
+        <br />
+
+        <button id="randomise">Randomise</button>
+        <br />
+
+        <button id="start-button">Play (stops after 3 seconds)</button>
+    </main>
+
+    <footer>
+        <p>
+            Copyright &copy; 2020, <a href="https://dylan-kerr.net">Dylan Kerr</a>.
+            Published under the open-source ISC license.
+            See <a href="LICENSE">LICENSE</a> for details.
+        </p>
+        <p>Last updated 2020-01-10.</p>
+    </footer>
+
+    <script src='main.js'></script>
+</body>
+</html>
