@@ -77,7 +77,7 @@ function randomise() {
     buildUI();
 }
 
-function buildTableHeader(tableElement) {
+function buildTableHeader() {
     const thead = document.createElement('thead');
     thead.style.borderBottom = '2px solid black';
 
