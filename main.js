@@ -252,7 +252,7 @@ function buildUI() {
 resetParameters();
 buildUI();
 
-document.querySelector('#operator-count').addEventListener('click', event => {
+document.querySelector('#operator-count').addEventListener('input', event => {
     operatorCount = Math.round(Number(event.target.value));
     resetParameters();
     buildUI();
